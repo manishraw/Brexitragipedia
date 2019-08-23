@@ -1,0 +1,77 @@
+<div class="container">
+<div class="row">
+    <div class="col-sm-12">
+        <div class="page_heading_title">Account</div>
+    </div>
+</div>
+<div class="row">
+        <div class="col-sm-6">
+            <div class="form_section">
+                <div class="form_heading">Login</div>
+                <form (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <input type="text" class="form-control custom_txt_box" id="Email" required placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control custom_txt_box" id="LoginPassword" placeholder="********">
+                        </div>
+                        <button type="submit" class="btn btn-success submit_btn_style_theme">Login</button>
+                 </form>
+            </div>
+
+            <div class="form_section">
+                <div class="record_link_option"><a href="#">Record New Event</a></div>
+                <form (ngSubmit)="onSubmitAddExistingEvent()">
+                        <div class="form-group">
+                            <input type="text" class="form-control event_box_style" id="existingEventNumber" required placeholder="Number">
+                        </div>
+                        <button type="submit" class="btn btn-success submit_btn_style_theme">Add Existing Event</button>
+                 </form>
+                 <form (ngSubmit)="onSubmitDeleteExistingEvent()">
+                        <div class="form-group">
+                            <input type="text" class="form-control event_box_style" id="deleteEventNumber" required placeholder="Number">
+                        </div>
+                        <button type="submit" class="btn btn-success submit_btn_style_theme">Delete Existing Event</button>
+                 </form>
+            </div>  
+        </div>
+        <div class="col-sm-6">
+            <div class="form_section">
+            <div class="form_heading">Register</div>
+                <form (ngSubmit)="onSubmitRegister()">
+                    <div class="form-group">
+                        <input type="text" class="form-control custom_txt_box" id="FirstName" required placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control custom_txt_box" id="LastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control custom_txt_box" id="Initials" placeholder="Initials">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control custom_txt_box" id="FirstPartPostCode" placeholder="First Part of Post Code">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control custom_txt_box" id="SecondPartPostCode" placeholder="Second Part of Post Code (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control custom_txt_box" id="SecondPartPostCode" placeholder="Second Part of Post Code (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control custom_txt_box" id="RegisterEmail" required placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control custom_txt_box" id="RegisterPassword" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control custom_txt_box" id="RegisterConfirmPassword" placeholder="Confirm Password">
+                    </div>
+                    <div class="form-group">
+                        <textarea type="text" class="form-control custom_txt_box" id="Capture" placeholder="Capture" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success submit_btn_style_theme">Register</button>
+                </form>
+        </div>
+        </div>
+</div>
+</div>

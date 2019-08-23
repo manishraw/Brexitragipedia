@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,200,300,300i,400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,200,200i,300,300i,400,400i,500,500i,600,600i,700,800&display=swap');
+.page_heading_title {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.form_section {
+    padding: 35px 35px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.form_heading {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+input.form-control.custom_txt_box {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    height: 50px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    outline: 0;
+    background: #f9f9f9;
+    border: 1px solid #c5c5c5;
+}
+textarea.custom_txt_box {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    height: 50px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    outline: 0;
+    background: #f9f9f9;
+    border: 1px solid #c5c5c5;
+}
+button.btn.btn-success.submit_btn_style_theme {
+    background: #882c2c;
+    font-family: 'Poppins', sans-serif;
+    padding: 11px 50px;
+    border: none;
+    font-size: 18px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 3px 1px 0px rgba(74,15,15,1);
+    -moz-box-shadow: 0px 3px 1px 0px rgba(74,15,15,1);
+    box-shadow: 0px 3px 1px 0px rgba(74,15,15,1);
+}
+input.form-control.event_box_style {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    padding: 15px;
+    height: 50px;
+    border-radius: 2px;
+    margin-bottom: 0;
+    outline: 0;
+    background: #f9f9f9;
+    border: 1px solid #c5c5c5;
+}
+.record_link_option a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #882c2c;
+    text-decoration: underline;
+}
